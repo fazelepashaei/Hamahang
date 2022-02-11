@@ -1,0 +1,67 @@
+.mainTitle {
+  margin-bottom: 80px;
+}
+
+.titleContainer {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tContent {
+  flex-direction: row-reverse;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* margin-right: 55px; */
+}
+
+.titleEndMeeting {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(94, 96, 97);
+  margin-left: 12px;
+  /* width: 5vmax; */
+  min-width: 10%;
+}
+
+.subTitle {
+  font-size: 14px;
+  color: rgb(94, 96, 97);
+}
+
+.peiro {
+  padding: 5px;
+  border: 1px;
+  border-color: rgb(68, 198, 230);
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  border-style: solid;
+  color: rgb(68, 198, 230);
+  font-size: 14px;
+  background-color: white;
+  margin-left: 50px;
+}
+
+.descriptionEndMeeting {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-start;
+}
+.titleDescription {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(94, 96, 97);
+  /* min-width: 12%; */
+  /* margin-right: 3vw; */
+  text-align: right;
+  width: 20%;
+}
+
+.contentDescription {
+  font-size: 16px;
+  color: rgb(94, 96, 97);
+  /* margin-left: 30px; */
+  /* width: 90%; */
+}

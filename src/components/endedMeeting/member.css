@@ -1,0 +1,22 @@
+.memberTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.memberRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+
+.membercontainer {
+  /* margin-right: 70px; */
+  /* margin-left: 70px; */
+}
+.memberTitr {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(94, 96, 97);
+}

@@ -1,0 +1,17 @@
+.menuContainer {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.dayButton {
+  flex-direction: column;
+  display: flex;
+  margin-right: 2vw;
+  margin-left: 1vw;
+  height: 70%;
+  width: 65%;
+  border-color: #f9f9f9;
+  border-width: 0vh;
+  background-color: #f9f9f9;
+  font-size: 15px;
+}

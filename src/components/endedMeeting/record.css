@@ -1,0 +1,66 @@
+.recordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.menuAccordion {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.AccordionDetailMenu {
+  margin-top: 10px;
+  border-color: #0f5d7f;
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.muirtl-1e5zq0w-MuiAccordionDetails-root {
+  padding: 0px !important;
+}
+
+.dividerAccordion {
+  background-color: #0f5d7f;
+}
+
+.muirtl-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0px !important;
+}
+.muirtl-1slwdjo-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 40px !important;
+}
+
+.muirtl-1slwdjo-MuiButtonBase-root-MuiAccordionSummary-root {
+  height: 30px !important;
+  min-height: 40px !important;
+}
+
+.accordionContent {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.muirtl-146y8e9-MuiSvgIcon-root {
+  margin-right: 15px !important;
+}
+
+.recordAccordion {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.recordRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.muirtl-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0px !important;
+}

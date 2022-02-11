@@ -1,0 +1,68 @@
+.mainModalRecord {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 70vmin;
+  width: 50vmin;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.modalRecord {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.recordTitle {
+  /* margin-bottom: 30px; */
+  color: rgb(94, 91, 91);
+  font-size: 18px;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.submitModalPeiro {
+  padding: 5px;
+  border: 1px;
+  background-color: #0f5d7f;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+  color: white;
+  font-size: 14px;
+  /* margin-bottom: 40px; */
+  margin-top: 120px;
+}
+.pRecord {
+  margin: 0px;
+}
+.recordRow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+}
+.dividerRecord {
+  width: 270px;
+  background-color: rgb(151, 147, 147);
+  margin: 0px;
+}
+
+.recordSubTitle {
+  color: white;
+  padding: 7px 90px;
+  background-color: #97c9f8;
+  border-radius: 5px;
+}
+.deleteRecord {
+  width: 20px;
+  height: 20px;
+}

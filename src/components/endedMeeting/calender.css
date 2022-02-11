@@ -1,0 +1,29 @@
+.calender {
+  width: 280px !important;
+  height: 25em !important;
+  min-height: 25em !important;
+  border: 1px !important;
+  border-color: #97c9f8 !important;
+  border-style: solid !important;
+}
+.Calender {
+  --cl-color-disabled: rgb(7, 4, 201) !important;
+}
+
+.custom-today-day {
+  color: #14c4f0 !important;
+  border: 1px solid #14c4f0 !important;
+  box-shadow: #14c4f0;
+}
+
+.Calendar__weekRow {
+  height: 33px;
+}
+
+.Calendar__weekDays {
+  margin-bottom: 0px;
+  color: rgb(80, 80, 88);
+}
+/* .Calendar__section {
+  padding: 0 1.7em !important;
+} */

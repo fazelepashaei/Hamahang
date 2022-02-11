@@ -1,0 +1,17 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.content2 {
+  flex-direction: row;
+  display: flex;
+  margin-top: 30px;
+}
