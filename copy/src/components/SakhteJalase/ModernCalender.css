@@ -1,0 +1,52 @@
+.Calendar,
+.Calendar * {
+  background-color: rgb(255, 255, 255);
+  /* width: 220px;
+  height: 70px;
+  font-size: 8px;
+  width: fit-content; */
+  /* padding-top: 4px;
+  padding-bottom: 4px; */
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px; */
+  font-size: 6px;
+  margin-bottom: 1px;
+  width: 300px;
+}
+.Calendar__sectionWrapper {
+  /* width: 300px; */
+  height: 50px;
+  font-size: 6px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.Calendar__monthText {
+  font-size: 12px;
+  /* padding: 0.2em 0.5em; */
+}
+.Calendar__monthYear > * {
+  font-size: 12px;
+  padding: 0.2em 0.5em;
+  /* width: 200px; */
+}
+.Calendar__weekDay {
+  font-size: 15px;
+  padding-right: 2px;
+  /* width: 300px; */
+}
+.Calendar {
+  /* --cl-color-error: #ff5129;
+  font-size: 12px; */
+  /* font-size: 14px; */
+}
+.Calendar__day.-rtl {
+  font-size: 12px;
+}
+.Calendar__weekRow {
+  height: 25px;
+  padding-left: 20px;
+}
+.Calendar__day.-today {
+}

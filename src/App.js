@@ -7,13 +7,11 @@ import rtlPlugin from "stylis-plugin-rtl";
 // import ShomareTamas from "./components/shomareTamas";
 // import CodeTaeid from "./components/codeTaeid";
 // import TaeinRamz from "./components/taeinRamz";
-// import MenuFilter from "./components/menu";
-// import EndedMeeting from "./components/endedMeeting/endedMeeting";
-
+import EndedMeeting from "./components/endedMeeting/endedMeeting";
+import JalasaRozane from "./components/jalasatRozane/jalasatRozane";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Jalasat from "./components/jalasat";
-// import Tasks from "./components/tasks/tasks";
+import Tasks from "./components/tasks/tasks";
 import Secretary from "./components/secretary/secretary";
 // import AppTestt from "./test";
 import Informe from "./components/informe/informe";
@@ -46,21 +44,26 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            {/* <Route path="/" element={<Jalasat />} />
+            {/* <Route path="/" element={<JalasaRozane />} /> */}
+            <Route path="/" element={<Welcome />} />
+            <Route path="Serial" element={<SerialNumberPage />} />
+            <Route path="Call" element={<CallNumber />} />
+            <Route path="/Jalasat" element={<JalasaRozane />} />
             <Route path="EndedMeeting" element={<EndedMeeting />} />
             <Route path="Tasks" element={<Tasks />} />
             <Route path="Secretary" element={<Secretary />} />
-            <Route path="Informe" element={<Informe />} /> */}
-            {/* <Route path="/" element={<WeeklyTable />} /> */}
+            <Route path="Informe" element={<Informe />} />
+            <Route path="NotificationAlarm" element={<NotificationAlarm />} />
+            <Route path="MackeMeeting" element={<MackeMeeting />} />
+            <Route path="Weekly" element={<Weekly />} />
 
+            {/* <Route path="/" element={<WeeklyTable />} /> */}
             {/* <Route path="/" element={<NotificationAlarm />} /> */}
             {/* <Route path="/" element={<NotificationAlarmClock />} /> */}
             {/* <Route path="/" element={<Welcome />} />
             <Route path="Serial" element={<SerialNumberPage />} />
             <Route path="Call" element={<CallNumber />} /> */}
-            <Route path="/" element={<Weekly />} />
-            {/* <Route path="/" element={<MackeMeeting />} /> */}
-            {/* <Route path="/" element={<NotificationAlarm />} /> */}
+            {/* <Route path="/" element={<Weekly />} /> */}
             {/* <Route path="/" element={<Josh1 />} /> */}
           </Routes>
         </BrowserRouter>

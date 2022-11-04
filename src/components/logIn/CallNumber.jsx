@@ -32,6 +32,9 @@ export default function CallNumber() {
     setpass(event.target.value);
   };
   const navigate = useNavigate();
+  const Oncheck = () => {
+    navigate("/Jalasat");
+  };
 
   return (
     <div
@@ -98,7 +101,9 @@ export default function CallNumber() {
               direction="row"
               spacing={2}
             >
-              <Button variant="contained">ورود</Button>
+              <Button onClick={Oncheck} variant="contained">
+                ورود
+              </Button>
             </Stack>
           </div>
         </Box>

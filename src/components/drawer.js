@@ -160,12 +160,15 @@ function DrawerPage() {
 
             <List>
               {[
-                { txt: "جلسات", img: document, location: `/` },
+                { txt: "جلسات", img: document, location: `/Jalasat` },
                 { txt: "تسک های روزانه  ", img: task, location: `/Tasks` },
                 { txt: "گزارش گیری", img: activity, location: `/Informe` },
-                { txt: "مدیریت اعلان ها", img: notification, location: `/` },
+                {
+                  txt: "مدیریت اعلان ها",
+                  img: notification,
+                  location: `/NotificationAlarm`,
+                },
                 { txt: "مدیریت منشی ها", img: user, location: `/Secretary` },
-                { txt: "اخبار", img: book, location: `/` },
               ].map((item, index) => (
                 <ListItem button key={item} className="listItemDrawer">
                   <nav>

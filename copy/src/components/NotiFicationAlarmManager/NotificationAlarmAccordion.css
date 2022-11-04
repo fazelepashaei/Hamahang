@@ -1,0 +1,54 @@
+.conatinerpage {
+  /* display: block;
+  background-color: rgb(124, 118, 118);
+  width: 1000px;
+  height: 300px; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* width: 1000px;
+  height: 300px; */
+  /* height: 300px; */
+  background-color: rgb(241, 241, 243);
+}
+.containeraccordion {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 80px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  width: 70%;
+
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  /* border: 0.01px rgb(228, 220, 220) !important; */
+}
+
+.muirtl-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  width: 99%;
+  background-color: rgb(255, 255, 255) !important;
+  padding-right: 10px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  /* border-radius: 0px !important; */
+}
+.muirtl-i4bv87-MuiSvgIcon-root {
+  fontsize: 8px !important;
+  height: 2em !important;
+  width: 1.5em !important;
+  font-weight: 10px !important;
+}
+.muirtl-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: rgb(255, 60, 0) !important;
+  padding: 0 !important;
+}
+.muirtl-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  height: 70px !important;
+  width: 200px !important;
+}
+body {
+  background-color: #fafafa !important;
+}

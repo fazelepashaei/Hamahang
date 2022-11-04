@@ -14,6 +14,8 @@ import CheckBoxAlarm from "./CheckBoxAlarm";
 // import "./NotificationAlarm.css";
 // import ClockTimePicker from "./NotificationAlarmClock";
 import NotificationAlarmClock from "./NotificationAlarmClock";
+import DrawerPage from "../drawer";
+
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -23,6 +25,8 @@ export default function ControlledAccordions() {
 
   return (
     <div className="conatinerpage">
+      <DrawerPage />
+
       {MemberData.map((item, i) => (
         <div
           className="containeraccordion"

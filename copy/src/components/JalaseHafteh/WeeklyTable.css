@@ -1,0 +1,79 @@
+.containerDate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #fafaf9;
+}
+.containerTable {
+  width: 100%;
+  margin-left: 10%;
+  background-color: #fafafa;
+}
+.containerTableDayName {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+}
+.dayPosition {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.containerChart {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+  height: 60em;
+  width: 140em;
+}
+.containerChartItem {
+  border-width: 0.5px;
+  border-color: #e0dcdd;
+  border-style: solid;
+  height: 95em;
+}
+.containerMeet {
+  flex-direction: column;
+  width: 170px;
+  height: 70px;
+  background-color: #fafafa;
+}
+.meetColumn {
+  flex-direction: column;
+  height: 1px;
+  background-color: #e0dcdd;
+}
+.subject2 {
+  background-color: #fffae2;
+  margin-right: 13px;
+}
+.subject21 {
+  color: black;
+  font-size: size 10px;
+}
+.tableRightBorder {
+  border-width: 1px;
+  border-right: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+.Vcolor {
+  background-color: aqua;
+}
+.Ncolor {
+  background-color: blueviolet;
+}
+.FontWeek {
+  font-family: "iranyekanwebboldfanum";
+}
+.FontWeek2 {
+  font-family: "iranyekanwebregularfanum";
+  font-size: 15px;
+  margin-right: 10%;
+  color: #a6a7a7;
+  width: 100%;
+}
+.markercluster-map {
+  height: 90vh;
+}

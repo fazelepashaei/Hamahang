@@ -1,0 +1,88 @@
+.contentSecretary {
+  /* display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: rgb(207, 18, 18);
+  margin-top: 12px;
+  margin-bottom: 12px; */
+  /* border-color: rgb(243, 241, 237); */
+  /* border-color: rgb(43, 42, 41);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 7px;
+  margin-left: 60px;
+  margin-right: 85px;
+  width: 85%;
+  height: 80px; */
+}
+.circleAlarm {
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  background-color: red;
+}
+.containNotif {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accordionDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.firstSecretary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 15%;
+}
+.secondSecretary {
+  width: 15%;
+}
+.thirdSecretary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.dot {
+  width: 10%;
+  font-weight: bold;
+  color: #0f5d7f;
+}
+.MuiButtonBase-root
+  /* .MuiAccordionSummary-root
+  .MuiAccordionSummary-gutters
+  .muirtl-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root */ {
+  height: 80px !important;
+  background-color: rgb(171, 171, 173) !important;
+}
+.MuiSvgIcon-root {
+}
+.muirtl-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: rgb(255, 60, 0) !important;
+  padding: 0 !important;
+  /* width: 100px !important; */
+  /* background-color: "blue" !important; */
+}
+.muirtl-i4bv87-MuiSvgIcon-root {
+  fontsize: 12px !important;
+  height: 2em !important;
+  width: 1.5em !important;
+}
+/* .MuiButtonBase-root {
+  background-color: "blue" !important;
+} */
+
+.MuiAccordionDetails-root {
+  background-color: rgb(106, 106, 109) !important;
+  width: 625px !important;
+  /* margin-right: 2%; */
+  /* bordertoprightradius: 20px !important;
+  border-radius: 3px !important; */
+}

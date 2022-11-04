@@ -1,0 +1,38 @@
+.jalasat2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.containerRozane {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.topRozane {
+  flex-direction: row;
+  display: flex;
+}
+
+.contentRozane {
+  flex-direction: row;
+  display: flex;
+  margin-top: 30px;
+}
+.addMeeting {
+  position: relative;
+  z-index: 9999;
+  margin-top: 20px;
+  margin-left: 1015px;
+  padding: 5px;
+  border: 1px;
+  background-color: #0f5d7f;
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  border-style: solid;
+  color: white;
+  font-size: 14px;
+  align-self: center;
+}

@@ -30,7 +30,7 @@
 .muirtl-1elwnq4-MuiPaper-root-MuiAccordion-root {
   width: 99%;
   background-color: rgb(255, 255, 255) !important;
-  padding-right: 10px !important;
+  /* padding-right: 10px !important; */
   border-bottom-left-radius: 0px !important;
   border-top-left-radius: 0px !important;
   /* border-radius: 0px !important; */
@@ -45,10 +45,10 @@
   color: rgb(255, 60, 0) !important;
   padding: 0 !important;
 }
-.muirtl-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+/* .muirtl-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
   height: 70px !important;
   width: 200px !important;
-}
+} */
 body {
   background-color: #fafafa !important;
 }
